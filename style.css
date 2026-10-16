@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(135deg, #efdafe 0%, #c2e9fb 100%);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #1a1a2e;
+    padding: 20px;
+}
+h1 {
+    color: rgb(255, 69, 0);
+    text-align: center;
+}
+h2 {
+    color: teal;
+    border-left: 5px solid #ff4500;
+    padding-left: 10px;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+ul li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+div[psevdo] {
+    color: rgb(43, 0, 255);
+    font-size: 20px;
+}
+div[psevdo]::after {
+    content: "\00A9";
+}
+div[psevdo]::before {
+    content: "Инопланетная мудрость: ";
+}
+.element {
+    color: red;
+}
+#title {
+    color: green;
+}
+div {
+    color: red;
+}
+div[imya] {
+    color: darkblue;
+}
+p {
+    color: teal;
+    border: 5px green solid;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.logo {
+    color: yellow;
+    background-image: url(../1d01de9eb265e2614aa5359a84c1d226.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    margin: 10px auto;
+}
+
+.box {
+    box-sizing: border-box;
+    height: auto; 
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-5px);
+}
+.box1 {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    color: #333;
+    border-left: 8px solid #ff4500;
+}
+.box2 {
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #1a1a2e;
+    border-left: 8px solid #0066cc;
+}
+.box h3 {
+    margin-top: 0;
+    color: #ff4500;
+}
+.link-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 10px 0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+button {
+    background: linear-gradient(135deg, #ff4500, #ff8c00);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(255,69,0,0.4);
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(135deg, #ffd700, #ffaa00);
+    color: black;
+    transform: scale(1.05);
+}
+table {
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+caption {
+    font-weight: bold;
+    padding: 10px;
+    background: #ffd700;
+}
+
+.secret-hint {
+    background: #fff3cd;
+    border: 2px dashed #ff4500;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: help;
+}
+
+.symbols-box {
+    background: #f0f8ff;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 5px solid #0066cc;
+    font-size: 18px;
+}
+
+.secret-box {
+    background: #e6f7ff;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 5px solid darkblue;
+}
+
+.philosophy-box {
+    background: #fdf5e6;
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 5px solid rgb(43, 0, 255);
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-card {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    max-width: 200px;
+    height: auto;
+}
+
+.talent-list {
+    background: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.shoe-list {
+    background: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stitch-form {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header-box {
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(255,140,0,0.4);
+    margin-bottom: 20px;
+}
