@@ -245,6 +245,9 @@ td { padding: 10px; }
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+.talent-list, .shoe-list{
+    padding-left: 50px;
+
 .header-box {
     background: linear-gradient(135deg, #ffd700, #ff8c00);
     border-radius: 20px;
